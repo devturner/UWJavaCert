@@ -1,0 +1,63 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fmodern\fcharset0 Courier-Bold;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red60\green87\blue116;\red234\green234\blue235;
+\red40\green43\blue38;\red172\green103\blue32;\red127\green0\blue85;\red106\green62\blue62;\red42\green0\blue255;
+\red0\green0\blue192;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl440
+
+\f0\fs28 \cf0 \cb2 1. Find two String methods that weren't mentioned in the lecture. Explain when you would use them and give a code example of their use. (Hint: Use Javadocs).\
+\
+Example One:\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://docs.oracle.com/javase/7/docs/api/java/lang/String.html#contentEquals(java.lang.CharSequence)"}}{\fldrslt 
+\f1\b\fs24 \cf3 \cb4 contentEquals}}
+\f2\fs24 \cf5 \cb4 ({\field{\*\fldinst{HYPERLINK "http://docs.oracle.com/javase/7/docs/api/java/lang/CharSequence.html"}}{\fldrslt 
+\f1\b \cf3 CharSequence}}\'a0cs)
+\f0\fs28 \cf0 \cb2 \
+\pard\pardeftab720\sl440
+\cf0 \
+This could be used to find out if a string, possible one that was input by a user, matches a set string that the program is expecting. It could be used to verify a case sensitive password or phrase that the user had previously entered for stringent verification purposes. \
+\
+Example two:\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://docs.oracle.com/javase/7/docs/api/java/lang/String.html#equalsIgnoreCase(java.lang.String)"}}{\fldrslt 
+\f1\b\fs24 \cf6 \cb4 equalsIgnoreCase}}
+\f2\fs24 \cf5 \cb4 ({\field{\*\fldinst{HYPERLINK "http://docs.oracle.com/javase/7/docs/api/java/lang/String.html"}}{\fldrslt 
+\f1\b \cf3 String}}\'a0anotherString)
+\f0\fs28 \cf0 \cb2 \
+\pard\pardeftab720\sl440
+\cf0 \
+This is similar to the method above, but it is not case sensitive, this allows for a bit more freedom from the user if the case does not matter. This could be good for when asking them to verify an email address, home address, or their name. \
+\
+\
+Both methods return a T or F boolean that can be used to move the program forward or loop back to as the same question again. I could see setting a count loop for the number of times that the program can ask the user to match the needed string before looking the user out and prompting them to go through a more formal verification process (like calling Cust. Service, or some kind of email verification). \
+\
+Code of both the methods in action:\
+\
+\pard\pardeftab720
+
+\f3\fs26 \cf7 \cb1 public\cf0  \cf7 class\cf0  sMethods \{\
+\
+	\cf7 public\cf0  \cf7 static\cf0  \cf7 void\cf0  main(String[] \cf8 args\cf0 ) \{\
+		String \cf8 trying\cf0  = \cf9 "this is a small test string"\cf0 ;\
+		System.\cf10 out\cf0 .println(\cf8 trying\cf0 );\
+		    \
+		    System.\cf10 out\cf0 .println(\cf9 "This method tells you T or F if the 2 strings match exactly: "\cf0  + \cf8 trying\cf0 .contentEquals\
+		    (\cf9 "this is a Small test string"\cf0 ));\
+		    \
+		    System.\cf10 out\cf0 .println(\cf9 "This method tells you T or F if the 2 strings match everything but case: "\cf0  + \cf8 trying\cf0 .equalsIgnoreCase(\cf9 "This IS A small TEST string"\cf0 ));\
+	\}\
+\}\
+\
+OUTPUT: \
+\
+\pard\pardeftab720
+
+\fs22 \cf0 this is a small test string\
+This method tells you T or F if the 2 strings match exactly: false\
+This method tells you T or F if the 2 strings match everything but case: true
+\fs26 \
+}
