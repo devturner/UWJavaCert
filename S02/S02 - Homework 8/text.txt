@@ -1,0 +1,32 @@
+
+	public void add(LibraryItem item) 
+
+
+	public void remove(LibraryItem item) 
+
+
+	public boolean getPatronObjectsName(String name)
+
+
+	public int addPatron(String name) 
+
+	
+	public boolean removePatron(int libraryCardNumber) 
+
+	
+	public void checkout(LibraryItem item, int libraryCardNumber)
+
+	
+	public boolean isCheckout(LibraryItem item) 
+
+
+	public void checkin(LibraryItem item) 
+
+
+	public List<Integer> getLibraryMembers() {
+
+
+	public List<LibraryItem> getCheckedOutItems() {
+
+
+	public List<LibraryItem> getListOfAllLibraryItems() {

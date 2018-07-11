@@ -1,0 +1,42 @@
+Write a declaration for an array variable called "people" that could be used to refer to an array of "Person" objects.
+Person[] people = new Person[10];
+
+
+Write a declaration for an array variable called "vacant" that could be used to refer to an array of "boolean" values.
+boolean[] vacant = new boolean[15];
+
+
+In the previous two questions what is the values of the arrays?
+The first array is an array of Person objects.
+The second array is an array of true or false, boolean statements
+
+
+What is the classpath and what is its purpose?
+Classpath is a parameter—set either on the command-line, or through an environment variable—that tells
+the Java Virtual Machine or the Java compiler where to look for user-defined classes and packages.
+
+
+Below is a list of names/phrases, following that is a list of statements. Match the names/phrases to the statements.
+Each name/phrase may be mapped to more than one statement, and each statement may have more than one name/phrase mapped to it.
+
+instance variable, argument, return type, getter, setter, pass by value, method
+
+
+A class can have any number of these. - instance variables, arguments, return types, getters, setters, methods
+
+A method can have only one of these. - return type
+
+This can be implicitly promoted. - instance variable
+
+It really means 'make a copy'. - pass by valve
+
+Only setters should update these. - instance variables
+
+A method can have many of these. -instance variable, arguments
+
+I return something by definition. - getter, return type,
+
+I can have many arguments. - method
+
+By definition, I take one argument. - setter
+

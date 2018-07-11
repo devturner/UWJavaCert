@@ -1,0 +1,27 @@
+Starting audit...
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Librarian.java:19: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Librarian.java:50: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Library.java:24: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Library.java:56: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Library.java:105: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Library.java:114: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/Library.java:115: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryAssociate.java:7: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryAssociate.java:12: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:108: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:115: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:116: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:117: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:118: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:119: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:120: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:121: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:122: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:123: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:130: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:138: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:142: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/LibraryTest.java:153: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/common/AbstractEmployee.java:14: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC06/src/edu/washington/ext/common/AbstractEmployee.java:16: warning: First sentence should end with a period.
+Audit done.

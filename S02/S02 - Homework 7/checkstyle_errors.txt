@@ -1,0 +1,52 @@
+Starting audit...
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/DiscountException.java:13: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:14: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:15: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:16: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:46: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:52:41: warning: Name 'InvoiceItem' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:53: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:68:44: warning: Name 'InvoiceItem' must match pattern '^[a-z][a-zA-Z0-9]*$'.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:73: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:74: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:86: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:107: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:109: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:110: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Invoice.java:113: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:11: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:12:15: warning: 'private' modifier out of order with the JLS suggestions.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:13: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:14:15: warning: 'private' modifier out of order with the JLS suggestions.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:15: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:16:15: warning: 'private' modifier out of order with the JLS suggestions.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:71: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:95: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceItem.java:98: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:14: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:16: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:18: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:20: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:22: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:24: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:26: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:28: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:30: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:32: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:34: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:36: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:38: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:40: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:42: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/InvoiceTest.java:62: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:3: warning: Line is longer than 80 characters.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:11: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:12:15: warning: 'private' modifier out of order with the JLS suggestions.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:13: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:14:15: warning: 'private' modifier out of order with the JLS suggestions.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:15: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:16:15: warning: 'private' modifier out of order with the JLS suggestions.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:36: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:42: warning: First sentence should end with a period.
+/Users/christurner/JAVA/Java Projects/TurnerC07/src/edu/washington/ext/Item.java:48: warning: First sentence should end with a period.
+Audit done.

@@ -1,0 +1,41 @@
+Answer the following questions and place in answer.txt The answer.txt file should be created in the project src directory.
+
+Investigate the "String" classes documentation plus a couple of others. What is the format/Structure ?
+
+The Java documentation is standardized to show what is being discussed at the moment and where
+it fits into the other parts of Java. It tells us what the Class it is and what it extends,
+the documentation provides how they can be used, constructed, and what methods can be used on them.
+There are examples of method uses and links to other resources as required.
+
+
+
+What sections are common to All class descriptions?
+
+The class hierarchy, the brief description with examples, constructor summary, method summary,
+constructor detail, and method detail.
+
+
+
+Describe what startsWith method on String class does.
+
+Tests whether the given string starts with the specified prefix.
+You can also use startsWith(String prefix, int toffset) and this will specify where to start the search
+
+
+
+Is there a method in the String class that tests whether a string ends with a given suffix? If so,
+what is the method signature including return type and access specifier?
+
+Yes, this is the endsWith method.
+Method signature: endsWith(String suffix)
+Access specifier is: public
+Return type is boolean.
+
+example:
+
+		String test = "this is a test to see what";
+		if(test.endsWith("at")){
+			System.out.println("true");
+		}
+
+Output is True

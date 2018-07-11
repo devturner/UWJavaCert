@@ -1,0 +1,8 @@
+How does inheritance break encapsulation?
+
+Inheritance exposes a subclass to details of its parent's implementation, thus it unhides the attempt to restrict information.
+
+What are static and dynamic types and how are they different?
+Static type: Can't be changed after it is compiled. The bindings are established at compiling.
+
+Dynamic type: They bindings will written at runtime and can change depending on the method called.

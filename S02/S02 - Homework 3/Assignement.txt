@@ -1,0 +1,28 @@
+
+/**
+ * To complete the Library class you will need to:
+ *
+ * X - 1. Add the appropriate import statements.
+ *
+ * X - 2. Complete the declaration of the checkoutBooks HashMap. Use generics to
+ * specify the key and value types. In this case, the key is isbn number of book
+ * and value is an list of 1 or more patrons that have borrowed this book.
+ *
+ * X - 3. Implement the constructor to initialize the HashMap.
+ *
+ * X - 4. Implement the checkoutBook(String,String) method. This is an isbn for book
+ * and one patron thats checking it out
+ *
+ * X - 5. Define and implement the checkoutBook(String, String variable argument
+ * list) method declaration and implement the method. This is an isbn for a book
+ * and any number of patrons that are checking it out.
+ *
+ * X - 6. Define and Implement the returnBook(String,String) method. Is isbn for
+ * book and person return the book
+ *
+ * X - 7. Define and Implement the printCheckoutBooksByIsbn(String) method by isbn
+ * number only
+ *
+ * 8. Optional, Define and implement printAllCheckoutBooks() method
+ */
+

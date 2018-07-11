@@ -1,0 +1,17 @@
+Answer the following questions and place in answer.txt The answer.txt file should be created in the project src directory.
+
+What are the fundamental difference between composition and inheritance?
+Inheritance is an "is-a" relationship. Composition is a "has-a"
+
+Dog is an animal
+Dog has a head
+
+What is delegation and how is it related to wrapper classes.
+In software engineering, the delegation pattern is a design pattern in object-oriented programming where an object,
+instead of performing one of its stated tasks, delegates that task to an associated helper object.
+
+Delegation usually happens inside a of a wrapper class.
+
+How is Java's interface inheritance similar to and different from multiple class inheritance?
+Interfaces and inheritance are similar in the they both allow other classes to inherit attributes from them, but a class
+is different in that it allows the other classes to inherit the attributes that it has defined.

@@ -1,0 +1,111 @@
+chriss-MacBook-Air-3:src christurner$ javac library.java -verbose
+[parsing started RegularFileObject[library.java]]
+[parsing completed 21ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/AppleScriptEngine.jar,/System/Library/Java/Extensions/dns_sd.jar,/System/Library/Java/Extensions/j3daudio.jar,/System/Library/Java/Extensions/j3dcore.jar,/System/Library/Java/Extensions/j3dutils.jar,/System/Library/Java/Extensions/jai_codec.jar,/System/Library/Java/Extensions/jai_core.jar,/System/Library/Java/Extensions/mlibwrapper_jai.jar,/System/Library/Java/Extensions/MRJToolkit.jar,/System/Library/Java/Extensions/QTJava.zip,/System/Library/Java/Extensions/vecmath.jar,.]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map$Entry.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[checking Library]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/System.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Iterator.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class)]]
+[wrote RegularFileObject[Library.class]]
+[total 448ms]
+chriss-MacBook-Air-3:src christurner$
+
+Why are there errors?
+No errors.
+
+
+
+chriss-MacBook-Air-3:src christurner$ javac librarytest.java -verbose
+[parsing started RegularFileObject[librarytest.java]]
+[parsing completed 17ms]
+[search path for source files: .]
+[search path for class files: /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/resources.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/rt.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/sunrsasign.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jsse.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jce.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/charsets.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/jfr.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/classes,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/dnsns.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/localedata.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunec.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar,/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/jre/lib/ext/zipfs.jar,/System/Library/Java/Extensions/AppleScriptEngine.jar,/System/Library/Java/Extensions/dns_sd.jar,/System/Library/Java/Extensions/j3daudio.jar,/System/Library/Java/Extensions/j3dcore.jar,/System/Library/Java/Extensions/j3dutils.jar,/System/Library/Java/Extensions/jai_codec.jar,/System/Library/Java/Extensions/jai_core.jar,/System/Library/Java/Extensions/mlibwrapper_jai.jar,/System/Library/Java/Extensions/MRJToolkit.jar,/System/Library/Java/Extensions/QTJava.zip,/System/Library/Java/Extensions/vecmath.jar,.]
+librarytest.java:2: error: package org.junit does not exist
+import static org.junit.Assert.assertEquals;
+                       ^
+librarytest.java:2: error: static import only from classes and interfaces
+import static org.junit.Assert.assertEquals;
+^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+librarytest.java:7: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading RegularFileObject[./Library.class]]
+librarytest.java:19: error: cannot find symbol
+	@Test
+	 ^
+  symbol:   class Test
+  location: class LibraryTest
+[checking LibraryTest]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+[total 341ms]
+4 errors
+
+
+Why are there errors?
+I think it is because you need to tell the compiler where the additional library can be found.
+
+
+chriss-MacBook-Air-3:src christurner$ javadoc library.java
+Loading source file library.java...
+Constructing Javadoc information...
+javadoc: error - No public or protected classes found to document.
+1 error
+
+
+Why are there errors?
+No public or protected classes found to document.
+This is because we deleted the classes? I'm not sure here.
+
+Using Eclipse to create the JavaDoc:
+
+Loading source file /Users/christurner/JAVA/Java Projects/TurnerC03/src/Library.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_67
+Building tree for all the packages and classes...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/Library.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/package-frame.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/package-summary.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/package-tree.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/constant-values.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/class-use/Library.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/package-use.html...
+Building index for all the packages and classes...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/overview-tree.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/index-files/index-1.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/index-files/index-2.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/index-files/index-3.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/index-files/index-4.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/deprecated-list.html...
+Building index for all classes...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/allclasses-frame.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/allclasses-noframe.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/index.html...
+Generating /Users/christurner/JAVA/Java Projects/TurnerC03/doc/help-doc.html...
+
+

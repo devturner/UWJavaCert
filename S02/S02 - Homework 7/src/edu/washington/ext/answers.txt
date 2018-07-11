@@ -1,0 +1,6 @@
+What was experiences using Eclipse or your tool of choice for performing the assignments.
+
+
+I think using eclipse was an important part of completing the homework and a great learning experience.
+I was able to learn how to use plug-ins, the source menu, the debugger, and many other features.
+
