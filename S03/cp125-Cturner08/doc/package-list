@@ -1,0 +1,7 @@
+app
+com.scg.domain
+com.scg.net.client
+com.scg.net.cmd
+com.scg.net.server
+com.scg.persistent
+com.scg.util

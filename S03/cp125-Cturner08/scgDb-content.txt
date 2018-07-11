@@ -1,0 +1,65 @@
+Table: CLIENTS
+ID, NAME, STREET, CITY, STATE, POSTAL_CODE, CONTACT_LAST_NAME, CONTACT_FIRST_NAME, CONTACT_MIDDLE_NAME
+----------------------------------------
+1, 'Acme Industries', '1616 Index Ct.', 'Redmond', 'WA', '98055', 'Coyote', 'Wiley', 'NMN'
+2, 'FooBar Enterprises', '1024 Kilobyte Dr.', 'Silicone Gulch', 'CA', '94105', 'Sam', 'Yosemite', 'NMN'
+
+Table: NON_BILLABLE_ACCOUNTS
+NAME
+----------------------------------------
+'BUSINESS_DEVELOPMENT'
+'SICK_LEAVE'
+'VACATION'
+
+Table: CONSULTANTS
+ID, LAST_NAME, FIRST_NAME, MIDDLE_NAME
+----------------------------------------
+1, 'Coder', 'Carl', 'NMN'
+2, 'Architect', 'Ann', 'S.'
+
+Table: SKILLS
+NAME, RATE
+----------------------------------------
+'PROJECT_MANAGER', 250
+'SYSTEM_ARCHITECT', 200
+'SOFTWARE_ENGINEER', 150
+'SOFTWARE_TESTER', 100
+'UNKNOWN_SKILL', 0
+
+Table: TIMECARDS
+ID, CONSULTANT_ID, START_DATE
+----------------------------------------
+1, 1, '2006-02-27'
+2, 1, '2006-03-06'
+3, 2, '2006-03-06'
+4, 2, '2006-03-13'
+
+Table: BILLABLE_HOURS
+ID, CLIENT_ID, TIMECARD_ID, DATE, SKILL, HOURS
+----------------------------------------
+1, 1, 1, '2006-02-27', 'SOFTWARE_ENGINEER', 8
+2, 1, 1, '2006-02-28', 'SOFTWARE_ENGINEER', 8
+3, 2, 1, '2006-03-01', 'SOFTWARE_ENGINEER', 8
+4, 2, 1, '2006-03-02', 'SOFTWARE_ENGINEER', 8
+5, 2, 1, '2006-03-03', 'SOFTWARE_ENGINEER', 8
+6, 1, 2, '2006-03-06', 'SOFTWARE_ENGINEER', 8
+7, 1, 2, '2006-03-07', 'SOFTWARE_ENGINEER', 8
+8, 2, 2, '2006-03-08', 'SOFTWARE_ENGINEER', 8
+9, 2, 2, '2006-03-09', 'SOFTWARE_ENGINEER', 12
+10, 2, 3, '2006-03-06', 'SYSTEM_ARCHITECT', 8
+11, 2, 3, '2006-03-08', 'SYSTEM_ARCHITECT', 8
+12, 2, 3, '2006-03-09', 'SYSTEM_ARCHITECT', 8
+13, 2, 3, '2006-03-10', 'SYSTEM_ARCHITECT', 8
+14, 2, 3, '2006-03-11', 'SYSTEM_ARCHITECT', 8
+15, 2, 4, '2006-03-13', 'SYSTEM_ARCHITECT', 8
+16, 2, 4, '2006-03-14', 'SYSTEM_ARCHITECT', 8
+17, 2, 4, '2006-03-17', 'SYSTEM_ARCHITECT', 8
+
+Table: NON_BILLABLE_HOURS
+ID, ACCOUNT_NAME, TIMECARD_ID, DATE, HOURS
+----------------------------------------
+1, 'VACATION', 2, '2006-03-10', 8
+2, 'SICK_LEAVE', 3, '2006-03-07', 8
+3, 'BUSINESS_DEVELOPMENT', 4, '2006-03-15', 8
+4, 'BUSINESS_DEVELOPMENT', 4, '2006-03-16', 8
+

@@ -1,0 +1,55 @@
+The Small Consulting Group
+1616 Index Ct.
+Renton, WA 98058
+
+Invoice for: 
+Acme Industries
+1616 Index Ct.
+Redmond, WA 98055
+Coyote, Wiley NMN
+
+Invoice For Month Of: March 2006
+Invoice Date: February 4, 2015
+
+Date           Consultant        Skill               Hours   Charge 
+-------------------------------------------------------------------
+[02/27/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 02/28/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 03/06/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 03/07/2006    Coder, Carl NMN   Software Engineer   8       1200
+]
+
+_____________THIS IS THE FOOTER__________ 
+
+The Small Consulting Group
+1616 Index Ct.
+Renton, WA 98058
+
+Invoice for: 
+FooBar Enterprises
+1024 Kilobyte Dr.
+Silicone Gulch, CA 94105
+Sam, Yosemite NMN
+
+Invoice For Month Of: March 2006
+Invoice Date: February 4, 2015
+
+Date           Consultant        Skill               Hours   Charge 
+-------------------------------------------------------------------
+[03/01/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 03/02/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 03/03/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 03/08/2006    Coder, Carl NMN   Software Engineer   8       1200
+, 03/09/2006    Coder, Carl NMN   Software Engineer   12       1800
+, 03/06/2006    Architect, Ann S.   System Architect   8       1600
+, 03/08/2006    Architect, Ann S.   System Architect   8       1600
+, 03/09/2006    Architect, Ann S.   System Architect   8       1600
+, 03/10/2006    Architect, Ann S.   System Architect   8       1600
+, 03/11/2006    Architect, Ann S.   System Architect   8       1600
+, 03/13/2006    Architect, Ann S.   System Architect   8       1600
+, 03/14/2006    Architect, Ann S.   System Architect   8       1600
+, 03/17/2006    Architect, Ann S.   System Architect   8       1600
+]
+
+_____________THIS IS THE FOOTER__________ 
+
